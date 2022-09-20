@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>OfficeNT</title>
+</head>
+<body>
+    <main>
+        <nav class="py-2 bg-primary border-bottom">
+            <div class="container d-flex flex-wrap">
+              <ul class="nav me-auto">
+                <li class="nav-item"><a href="./home.html" class="nav-link link-light px-2 active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="./office-supplies.html" class="nav-link link-light px-2">Office Supplies</a></li>
+                <li class="nav-item"><a href="./tech.html" class="nav-link link-light px-2">Technology</a></li>
+                <li class="nav-item"><a href="./decor.html" class="nav-link link-light px-2">Decoration</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link link-light px-2">About</a></li>
+              </ul>
+              <ul class="nav">
+                <li class="nav-item"><a href="./sign-in.html" class="nav-link link-light px-2">Login</a></li>
+                <li class="nav-item"><a href="./sign-up.html" class="nav-link link-light px-2">Sign up</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-light px-2">Checkout</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <header class="py-3 mb-4 border-bottom">
+            <div class="container d-flex flex-wrap justify-content-center">
+              <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">OfficeNT</span>
+              </a>
+              <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+              </form>
+            </div>
+          </header>
+
+          <!-- <div class="container">
+            <div class="row">
+              <div class="col">
+                <p><strong>Office Supplies</strong></p>
+                <img src="./images/tim-gouw-KigTvXqetXA-unsplash.jpg" height="130" width="200em" alt="Office-Supplies">
+              </div>
+              <div class="col">
+                <p><strong>Technology</strong></p>
+                <img src="./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg" height="130" width="200em" alt="Technology">
+              </div>
+              <div class="col">
+                <p><strong>Decoration</strong></p>
+                <img src="./images/alex-kotliarskyi-QBpZGqEMsKg-unsplash (1).jpg" height="130" width="200em" alt="Decoration">
+              </div>
+            </div>
+          </div> -->
+
+          <div id="myCarousel" class="carousel slide px-5" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide="0" class="active" aria-current="true" aria-label="Office Supplies"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide="1" aria-label="Technology"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide="2" aria-label="Decoration"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/tim-gouw-KigTvXqetXA-unsplash.jpg" class="d-block w-100 rounded" alt="Office-Supplies">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Office Supplies</h5>
+                  <p>Appliances include every thing from notebooks to suitcases</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg" class="d-block w-100 rounded" alt="Technology">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/alex-kotliarskyi-QBpZGqEMsKg-unsplash (1).jpg" class="d-block w-100 rounded" alt="Decoration">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="container mt-3 px-4">
+            <div class="row">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatem sunt veritatis maiores
+                     nulla saepe harum asperiores, illo possimus sint eos itaque laboriosam est porro accusantium 
+                     libero cum quos excepturi.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aut possimus at distinctio eaque sint,
+                     deserunt numquam accusantium! Ab quia sequi officia animi saepe doloremque odio aspernatur earum, 
+                     beatae laboriosam?
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque id asperiores ex neque maxime possimus
+                     ab vero molestias, nemo, pariatur culpa inventore sequi ratione! Adipisci tempora repellat illum impedit
+                      perspiciatis.
+                </p>
+                
+            </div>
+          </div>
+
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mt-auto">
+              <p class="col-md-4 mb-0 text-muted">© 2022 OfficeNT, Inc</p>
+          
+              <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+          
+              <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Office Supplies</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Technology</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Decoration</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+              </ul>
+            </footer>
+          </div>
+          
+
+
+
+
+
+    </main>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
