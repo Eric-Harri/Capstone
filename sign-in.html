@@ -15,30 +15,32 @@
         <div class="container"></div>
             <header class="py-3 mb-4 border-bottom">
                 <div class="container d-flex flex-wrap justify-content-center">
-                <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <a href="./home.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#home"></use></svg>
                     <span class="fs-4">OfficeNT</span>
                 </a>
                 </div>
             </header>
         </div>  
-
+        
         <div class="container">
-            <form action="./home.html">
+            <form>
+                <div class="my-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email"  required>
+                    <div id="emailHelp" class="form-text">Enter your Email Here</div>
+                </div>   
+                
+            
                 <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Enter your Email Here</div>
-                </div>
-                <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" required>
                 </div>
                 <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="checkbox">
-                <label class="form-check-label" for="checkbox">Remember me</label>
+                    <input type="checkbox" class="form-check-input" id="checkbox">
+                    <label class="form-check-label" for="checkbox">Remember me</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" formaction="./home.html">Submit</button>
             </form>
         </div>  
     </main> 
