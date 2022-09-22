@@ -14,7 +14,8 @@
 </head>
 <body>
     <main>
-     <!-- Navigation  -->
+      <!-- This is called a doubled nav-header and hold 2 sections of code.-->
+     <!-- Navigation  - first part -->
      <nav class="py-2 bg-primary border-bottom">
       <div class="container d-flex flex-wrap">
         <ul class="nav me-auto">
@@ -31,7 +32,7 @@
     </nav>
       <!-- Navigation  -->
 
-              <!-- Header -->
+              <!-- Header second part -->
           <header class="py-3 mb-4 border-bottom">
             <div class="container d-flex flex-wrap justify-content-center">
               <a href="./home.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
@@ -49,29 +50,38 @@
               <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+            <!-- the pictures of the slides for the carousel are put inside of the div class="carousel-inner" -->
             <div class="carousel-inner">
+              <!-- c-inner is used to wrap c-items to be displayed on c-slides -->
               <div class="carousel-item active">
                 <img src="./images/tim-gouw-KigTvXqetXA-unsplash.jpg" class="d-block w-100 rounded" alt="Office Supplies">
+                <!-- this div adds the class on the carousel slide -->
                 <div class="carousel-caption d-none d-md-block">
+                  <!-- There is a link put inside of the header tag that sends it to the product page-->
                   <h5><a href="./products.html" class="text-decoration-none text-light">Office Supplies</a></h5>
                   <p>Papers, Folders and, Pens!</p>
                 </div>
               </div>
               <div class="carousel-item">
+                <!-- There is a link put inside of the header tag that sends it to the product page-->
                 <img src="./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg" class="d-block w-100 rounded" alt="Technology">
+                <!-- this div adds the class on the carousel slide -->
                 <div class="carousel-caption d-none d-md-block">
                   <h5><a href="./products.html" class="text-decoration-none text-light">Technology</a></h5>
                   <p>Computers, Phones and Software</p>
                 </div>
               </div>
               <div class="carousel-item">
+                <!-- There is a link put inside of the header tag that sends it to the product page-->
                 <img src="./images/office-decor.jpg" class="d-block w-100 rounded" alt="Decoration">
+                <!-- this div adds the class on the carousel slide -->
                 <div class="carousel-caption d-none d-md-block">
                   <h5><a href="./products.html" class="text-decoration-none text-light">Decoration</a></h5>
                   <p>Artwork, Couches and, Lamps. anything you need for your business office and home</p>
                 </div>
               </div>
             </div>
+              <!-- this part is what contols the arrows and must be matched to the #ids on carousel slide div -->
             <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
